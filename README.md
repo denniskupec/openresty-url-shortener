@@ -20,3 +20,9 @@ init_by_lua_block {
     http = require "resty.http"
 }
 ```
+
+---
+
+#### Known Issues
+- Does not handle URL's with some file extensions correctly
+- Some TLD's dont pass the location
